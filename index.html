@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Game of Words </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default  navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img alt="GAME OF WORDS" src="https://fontmeme.com/temporary/3cb4034d53b600e61c941d2a592f3eda.png">
+            </a>
+          </div>
+        </div>
+      </nav>
+      <centre>
+      <div class="page-header">
+            <h1>WELCOME PEOPLE CHOOSE  <small>MODE</small></h1>
+          </div>
+
+          <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-6 col-md-4 col-sm-8 offset-sm-2 col-10 offset-1 mt-4 border border-secondary rounded p-sm-5 px-2 py-3 bg-light">
+                    <div class="row">
+                     <div class="col-lg-12 col-sm-6 col-sd-4"><button type="button"class="btn btn-outline-success btn-block" id="easy">EASY MODE</button></div>
+                     <div class="col-lg-12 col-sm-6 col-sd-4"><button type="button"class="btn btn-outline-success btn-block" id="hard">HARD MODE</button></div>                      
+                    
+                     <div class="col-12  pt-3"><div class="card card-body"><h2 id="word"></h2></div></div>
+                     <div class="col-12  pt-5"><input type="text"class="input-group-text" id="answer"></div>
+                     <div class="col-12  pt-4">Score: <strong id="score">0</strong></div>
+                   </div>
+                   <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                      <span class="sr-only">100% Complete</span>
+                    </div>
+                  </div>
+
+
+                    </div>
+                </div>
+          </div>     
+  <script src="main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script></centre>
+</body>
+</html>
